@@ -5,26 +5,26 @@ This project focuses on maximizing revenue from direct marketing campaigns using
 
 ## Repository Structure
 ```
-├── data
+├── data/
 │   ├── DataScientist_CaseStudy_Dataset.csv               # The original RAW dataset
 │   ├── X.csv                                             # Processed features dataset
 │   ├── y.csv                                             # Processed target labels dataset
 │
-├── lib
-│   ├── custom_modules.py  # Python scripts for reusable functions and utilities
+├── lib/
+│   ├── train_functions.py                                # Functions for model training and evaluation
+│   ├── optim_utils.py                                    # Reusable functions used in the Optimization step
+│   ├── optim_functions.py                                # Objective function used in the Optimization step
 │
-├── output
-│   ├── final_output.csv   # CSV containing the final predictions and recommendations
+├── output/
+│   ├── top_15_pct_by_revenue.csv                         # CSV containing the final predictions and recommendations
 │
-├── train_params
-│   ├── best_hyperparams.json  # Best hyperparameters from Optuna optimization
+├── train_params/
+│   ├── *.json                                            # JSON files of the corresponding best hyperparameters generated
 │
-├── notebooks
-│   ├── part-1-eda.ipynb   # Exploratory Data Analysis (EDA), sanitation, and preprocessing
-│   ├── part-2-data-modelling.ipynb  # Model training, benchmarking, and revenue optimization
-│
-├── requirements.txt       # List of dependencies
-├── README.md              # Project documentation
+├── part-1-eda.ipynb                                      # Exploratory Data Analysis (EDA), sanitation, and preprocessing
+├── part-2-data-modelling.ipynb                           # Model training, benchmarking, and revenue optimization
+├── requirements.txt                                      # List of dependencies
+├── README.md                                             # Project documentation
 ```
 
 ## Methodology
