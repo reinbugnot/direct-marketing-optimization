@@ -1,15 +1,14 @@
 {
-    "num_leaves": 216,
-    "learning_rate": 0.03315396185923432,
-    "n_estimators": 347,
-    "min_child_samples": 10,
-    "reg_alpha": 0.0008959071753598509,
-    "reg_lambda": 0.014006718722084059,
-    "colsample_bytree": 0.5295966713579825,
-    "subsample": 0.874832401312016,
+    "num_leaves": 270,
+    "learning_rate": 0.009953913584639366,
+    "n_estimators": 472,
+    "min_child_samples": 80,
+    "reg_alpha": 0.0008385942683193402,
+    "reg_lambda": 0.2280016975075822,
+    "colsample_bytree": 0.5439066343373379,
+    "subsample": 0.690464330621352,
     "max_depth": 3,
-    "feature_fraction": 0.6561260982050167,
-    "bagging_fraction": 0.8812261620528629,
-    "bagging_freq": 5,
-    "scale_pos_weight": 0.6259430973845609
+    "feature_fraction": 0.8824664555958993,
+    "bagging_fraction": 0.7249244490538288,
+    "bagging_freq": 3
 }
