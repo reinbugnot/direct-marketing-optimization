@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 ### Reproducing Best Results
 - The best hyperparameters are stored in `train_params/*.json`.
-- To retrain using these parameters, load them in `part-2-data-modelling.ipynb` using the `load_params()` function in `lib.optim_utls`.
+- To retrain using these parameters, load them in `part-2-data-modelling.ipynb` using the `load_params()` function in `lib.optim_utils`.
 ```python
 from lib.optim_utils import load_params
 ```
