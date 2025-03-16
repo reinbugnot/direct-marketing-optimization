@@ -83,3 +83,23 @@ def cross_validation(X, y, model, cv=5, print_status=False, smote_resampling=Fal
         print(f'\nCompleted {cv}-fold CV. Mean PR-AUC-Brier: {np.mean(scores)}')
         
     return np.mean(scores)
+
+def get_client_characteristics(top_prop_df, demo_features_df):
+    # Merge the dataframes
+    merged_df = top_prop_df.merge(demo_features_df, on="Client", how="left")
+    
+    # Calculate summary statistics
+    summary_stats = {
+        "Average Age": merged_df["Age"].mean(),
+        "Median Age": merged_df["Age"].median(),
+        "Sex Distribution": merged_df["Sex"].value_counts(normalize=True).to_dict(),
+        "Average Tenure (Months)": merged_df["Tenure"].mean(), 
+        "Median Tenure (Months)": merged_df["Tenure"].median(),
+        "Average Account Bal": merged_df["Total_ActBal"].mean(),
+        "Median Account Bal": merged_df["Total_ActBal"].median(),
+        "Average C/D ratio": merged_df["Credit_Debit_Ratio"].mean(),
+        "Median C/D ratio": merged_df["Credit_Debit_Ratio"].median(),
+        "Dormant Distribution": merged_df["Dormant"].value_counts(normalize=True).to_dict(),
+    }
+    
+    return summary_stats
