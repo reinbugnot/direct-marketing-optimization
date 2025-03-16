@@ -16,7 +16,8 @@ This project focuses on maximizing revenue from direct marketing campaigns using
 │   ├── optim_functions.py                                # Objective function used in the Optimization step
 │
 ├── output/
-│   ├── top_15_pct_by_revenue.csv                         # CSV containing the final predictions and recommendations
+│   ├── top_15_pct_by_revenue.csv                         # CSV containing the final top 15% marketing recommendations
+│   ├── top_prop_*.csv                                    # CSV containing the final predictions of the 3 propensity models trained
 │
 ├── train_params/
 │   ├── *.json                                            # JSON files of the corresponding best hyperparameters generated
