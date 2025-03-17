@@ -24,6 +24,7 @@ This project focuses on maximizing revenue from direct marketing campaigns using
 │
 ├── part-1-eda.ipynb                                      # Exploratory Data Analysis (EDA), sanitation, and preprocessing
 ├── part-2-data-modelling.ipynb                           # Model training, benchmarking, and revenue optimization
+├── executive_summary.pdf                                 # 2-page executive summary
 ├── requirements.txt                                      # List of dependencies
 ├── README.md                                             # Project documentation
 ```
