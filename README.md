@@ -1,7 +1,7 @@
 # Direct Marketing Optimization Case Study
 
 ## Project Overview
-This project focuses on maximizing revenue from direct marketing campaigns using machine learning models to predict customer propensity and optimize targeting strategies. The goal is to maximize revenue while adhering to constraints such as contact limitations and single-offer assignments.
+This project focuses on maximizing revenue from direct marketing campaigns using machine learning to predict customer propensity and optimize targeting strategies. The goal is to maximize revenue while adhering to constraints such as contact limitations and single-offer assignments.
 
 ## Repository Structure
 ```
