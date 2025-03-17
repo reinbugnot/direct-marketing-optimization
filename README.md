@@ -32,7 +32,7 @@ This project focuses on maximizing revenue from direct marketing campaigns using
 ## Methodology
 ### 1. Exploratory Data Analysis (EDA) & Preprocessing
 - Conducted data cleaning and preprocessing.
-- Handled missing values and feature engineering.
+- Handled missing values, outliers, redundant features, feature engineering, etc..
 - Generated `X.csv` and `y.csv` as inputs for model training.
 
 ### 2. Model Training & Evaluation
@@ -40,8 +40,9 @@ This project focuses on maximizing revenue from direct marketing campaigns using
   - **Consumer Loan**
   - **Credit Card**
   - **Mutual Fund**
+- Used LGBM as the primary model as I believe it works well for imbalanced datasets.
 - Used Optuna for hyperparameter tuning to optimize model performance.
-- Benchmarked multiple models to select the best-performing ones.
+- Benchmarked 3 different model configurations to select the best-performing ones.
 
 ### 3. Targeting Strategy & Revenue Optimization
 - Applied the best-performing models to estimate customer likelihood of conversion.
