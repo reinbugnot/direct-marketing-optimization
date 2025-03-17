@@ -46,7 +46,8 @@ This project focuses on maximizing revenue from direct marketing campaigns using
 
 ### 3. Targeting Strategy & Revenue Optimization
 - Applied the best-performing models to estimate customer likelihood of conversion.
-- Selected the top 15% of customers that maximizes revenue.
+- Used the Expected Value formula to estimate Expected Revenue
+- Selected the top 15% of clients and corresponding product offer that maximizes expected revenue.
 - Produced the final targeting list as `top_15_pct_by_revenue.csv`.
 
 ## How to Use This Repository
